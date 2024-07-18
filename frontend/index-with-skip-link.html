@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skip to main content</title>
+    <meta
+      name="description"
+      content="tabbing from the URL bar will show an accessible skip to content link"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <a
+      href="#main-content"
+      class="absolute left-1/2 -translate-x-1/2 top-0 bg-green-100 py-2 px-4 z-50 transform -translate-y-full focus:translate-y-0 transition"
+    >
+      Skip to main content
+    </a>
+    <header class="max-w-screen-lg bg-gray-200 mx-auto grid grid-cols-5 gap-4">
+      <img src="images/Barry_Bell_s.jpg" width="150" />
+      <ul class="grid grid-cols-4 gap-1 col-span-4">
+        <li><a href="index.html">Without Skip Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </header>
+    <div class="max-w-screen-lg mx-auto grid grid-cols-2 grid-cols-5">
+      <aside class="bg-orange-100">
+        <ul class="grid grid-cols-2 gap-4">
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
+      </aside>
+      <div class="bg-orange-50 col-span-4" id="main-content">
+        <p>This does have the skip link</p>
+        <a href="#" class="text-blue-500">This is the link I want to get to</a>
+      </div>
+    </div>
+
+    <footer class="max-w-screen-lg bg-slate-300 mx-auto">
+      <ul class="grid grid-cols-4 gap-4">
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
