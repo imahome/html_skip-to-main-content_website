@@ -4,8 +4,14 @@ Additional accessibility attributes should be added as required as this is only 
 
 ## Pages
 
-The index page does not have the skip link on
+This page does not have the skip link functionality
+
+https://imahome.github.io/html_skip-to-main-content_website/index.html
+
+This page does have the skip link functionality
+
+https://imahome.github.io/html_skip-to-main-content_website/index-with-skip-link.html
 
 ## Implementation
 
-Simple html but uses TailWind for rapid building.
+Simple html but uses TailWind via CDN for rapid building.
